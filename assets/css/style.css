@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  	color: #777777;
+  	background: #ffffff;
+  	background-image:url(../images/concretebg.png);
+	width:100%;
+	height:100%;
+}
+
+
+header {
+	width: 100%;
+	background-color: #ffffff;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 51px;
+	border-bottom: 5px solid darkorange;
+	
+}
+
+.headerwrap {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+
+h4{
+	text-align: center;
+	background-color:darkorange;
+	padding: 20px;
+	color: #ffffff;
+	margin-top:-4px;
+	margin-left:7px;
+	float:left;
+	width: 10%;
+	height:auto;
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+	
+	
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+
+}
+
+
+header nav ul {
+	list-style: none;
+	float: right;
+}
+
+
+nav ul li {
+	float: right;
+	color: darkorange;
+	font-size: 14px;
+	text-align: right;
+	padding-left: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+
+nav a, a:visited {
+	color: darkorange;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+
+
+
+nav a:hover, a:active {
+	color: #666666;
+	
+}
+
+
+
+
+.content{
+	width: 960px;
+	margin:100px auto;
+	overflow: auto;
+
+}
+
+
+section  {
+	width: 650px;
+	background-color: #ffffff;
+	float:left;
+	border: 1px solid #dddddd;
+	left:0px;
+
+
+}
+
+
+h2{
+	margin: 30px;
+	color: darkorange;
+	text-transform: uppercase;
+}
+
+
+hr{
+	border: 1px solid darkorange; 
+	margin: 0 30px;
+}
+
+
+img {
+	margin: 30px;
+	float:left;
+}
+
+
+section p {
+	margin: 30px;
+	text-align: justify;
+}
+
+
+aside {
+	float: right;
+	width: 270px;
+	background-color: #ffffff;
+	text-align: center;
+	border: 1px solid #dddddd;
+}
+
+
+aside img {
+	margin:30px 10px 30px 25px;
+}
+
+aside a img:hover {
+	background-color: darkorange;
+
+}
+
+
+/*gallery style */
+#gallery {
+	width:100%;
+}
+				                       
+
+#gallery ul, li { 
+	display:inline;
+	list-style: none; 
+}
+
+#gallery ul img {
+	border: 3px solid darkorange;
+	margin: 30px 17px 30px 30px;
+} 
+				
+#gallery ul img:hover, img:active {
+	border:3px solid #666666;		 		
+}
+
+.form {
+
+	padding:30px;
+	
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}	
+
+input[type=text]:focus {
+    border: 1px solid darkorange;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea:focus {
+  	border: 1px solid darkorange;
+}
+
+
+input[type=submit] {
+    width: 20%;
+    background-color: darkorange;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    text-transform: uppercase;
+}	
+
+input[type=submit]:hover {
+    background-color: transparent;
+    border: 1px solid darkorange;
+    color:darkorange;
+}				
+
+
+footer {
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	background-color: darkorange;
+	width: 100%;
+	text-align: center;
+	border-top: 5px solid darkgray;
+}
+
+
+footer p{
+	text-transform: uppercase;
+	color:white;
+	letter-spacing: 0.1em;
+}
+
+
+
+
+
