@@ -69,7 +69,7 @@ nav ul li {
 }
 
 
-nav a, a:visited {
+nav a {
 	color: darkorange;
 	text-decoration: none;
 	font-size: 12px;
@@ -78,10 +78,12 @@ nav a, a:visited {
 
 
 
-nav a:hover, a:active {
+nav a:hover, a:active, a:focus, a:visited {
 	color: #666666;
-	
 }
+	
+
+
 
 
 
@@ -150,25 +152,48 @@ aside a img:hover {
 }
 
 
-/*gallery style */
-#gallery {
-	width:100%;
-}
-				                       
+/*-----------gallery style-------------*/
 
-#gallery ul, li { 
-	display:inline;
+
+.textbar{
+	position: relative;
+	width: 100%;
+
+}
+
+
+.textbar p {
+	position: absolute;
+	color: white;
+	background-color: darkorange;
+	width: 154px;
+	padding: 5px 0;
+	margin-top:130px;
+	text-align: center;
+	display: block;
+	opacity: 0.8;
+
+}
+
+
+.textbar ul li { 
+	display:inline-block;
 	list-style: none; 
+	margin: 0 25px 0 -40px;
 }
 
-#gallery ul img {
-	border: 3px solid darkorange;
-	margin: 30px 17px 30px 30px;
+.textbar img {
+	border: 2px solid darkorange;
+
 } 
 				
-#gallery ul img:hover, img:active {
-	border:3px solid #666666;		 		
+.textbar img:hover, img:active {
+	border:2px solid #666666;		 		
 }
+
+
+
+/*--------------FORM STYLING------------------------*/
 
 .form {
 
@@ -224,7 +249,10 @@ input[type=submit]:hover {
     background-color: transparent;
     border: 1px solid darkorange;
     color:darkorange;
-}				
+}	
+
+
+/*--------------FOOTER STYLING---------------------*/
 
 
 footer {
@@ -242,6 +270,11 @@ footer p{
 	text-transform: uppercase;
 	color:white;
 	letter-spacing: 0.1em;
+}
+
+.glyphicon glyphicon-home{
+	width: 500px;
+	height:500px;
 }
 
 
